@@ -5,7 +5,7 @@ def longest_sentences(sentences):
     for sentence in sentences:
         if len(sentence.split(' ')) > len(longest.split(' ')):
             longest = sentence
-    return longest 
+    return longest
 
 sentences=['I am a boy', 'my name is fortune', 'python is difficult', 'why do i feel so tired']
 longest = longest_sentences(sentences)

@@ -6,6 +6,7 @@ def alphabetic_strings(strings):
     for string in strings:
         if string.isalpha():
             alphabetic.append(string)
+            
     return alphabetic
 
 
